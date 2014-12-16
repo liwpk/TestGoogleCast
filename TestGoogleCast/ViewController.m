@@ -47,7 +47,6 @@ static NSString *const kReceiverAppID = @"CC1AD845";
     [chromecastButton setImage:_btnImage forState:UIControlStateNormal];
     chromecastButton.hidden = YES;
     
-//    _chromecastBarButton = [[UIBarButtonItem alloc] initWithCustomView:chromecastButton];
     [self.view addSubview:chromecastButton];
     
     

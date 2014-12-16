@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4981DB62-4E6E-4EBA-AE2C-00C1FA0A514D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TestGoogleCast</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D1C01827F27410600BBBA1222B3A11017BC7AA25</key>
+		<string>https://github.com/liwpk/TestGoogleCast.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TestGoogleCast.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D1C01827F27410600BBBA1222B3A11017BC7AA25</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/liwpk/TestGoogleCast.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D1C01827F27410600BBBA1222B3A11017BC7AA25</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D1C01827F27410600BBBA1222B3A11017BC7AA25</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TestGoogleCast</string>
+		</dict>
+	</array>
+</dict>
+</plist>

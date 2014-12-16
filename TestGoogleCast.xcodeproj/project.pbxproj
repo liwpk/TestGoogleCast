@@ -17,7 +17,6 @@
 		774020251A36BB72005B0F11 /* icon_cast_on0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7740201B1A36BB72005B0F11 /* icon_cast_on0@2x.png */; };
 		774020261A36BB72005B0F11 /* icon_cast_on1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7740201C1A36BB72005B0F11 /* icon_cast_on1@2x.png */; };
 		774020271A36BB72005B0F11 /* icon_cast_on2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7740201D1A36BB72005B0F11 /* icon_cast_on2@2x.png */; };
-		774021571A383584005B0F11 /* TempObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 774021561A383584005B0F11 /* TempObject.m */; };
 		775F9B931A356B6000DD2B67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 775F9B921A356B6000DD2B67 /* main.m */; };
 		775F9B961A356B6000DD2B67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 775F9B951A356B6000DD2B67 /* AppDelegate.m */; };
 		775F9B991A356B6000DD2B67 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 775F9B981A356B6000DD2B67 /* ViewController.m */; };
@@ -52,8 +51,6 @@
 		7740201B1A36BB72005B0F11 /* icon_cast_on0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_cast_on0@2x.png"; sourceTree = "<group>"; };
 		7740201C1A36BB72005B0F11 /* icon_cast_on1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_cast_on1@2x.png"; sourceTree = "<group>"; };
 		7740201D1A36BB72005B0F11 /* icon_cast_on2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_cast_on2@2x.png"; sourceTree = "<group>"; };
-		774021551A383584005B0F11 /* TempObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TempObject.h; sourceTree = "<group>"; };
-		774021561A383584005B0F11 /* TempObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TempObject.m; sourceTree = "<group>"; };
 		775F9B8D1A356B6000DD2B67 /* TestGoogleCast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestGoogleCast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		775F9B911A356B6000DD2B67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		775F9B921A356B6000DD2B67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -71,7 +68,6 @@
 		775F9BB81A356D0900DD2B67 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		775F9BBA1A356D1800DD2B67 /* MediaAccessibility.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaAccessibility.framework; path = System/Library/Frameworks/MediaAccessibility.framework; sourceTree = SDKROOT; };
 		775F9BBC1A356D3200DD2B67 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
-		775F9BBE1A35775900DD2B67 /* 10.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 10.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,8 +135,6 @@
 				775F9B951A356B6000DD2B67 /* AppDelegate.m */,
 				775F9B971A356B6000DD2B67 /* ViewController.h */,
 				775F9B981A356B6000DD2B67 /* ViewController.m */,
-				774021551A383584005B0F11 /* TempObject.h */,
-				774021561A383584005B0F11 /* TempObject.m */,
 				775F9B9A1A356B6000DD2B67 /* Main.storyboard */,
 				775F9B9D1A356B6000DD2B67 /* Images.xcassets */,
 				775F9B9F1A356B6000DD2B67 /* LaunchScreen.xib */,
@@ -152,7 +146,6 @@
 		775F9B901A356B6000DD2B67 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				775F9BBE1A35775900DD2B67 /* 10.mp4 */,
 				775F9BB61A356B9F00DD2B67 /* GoogleCast.framework */,
 				775F9BBC1A356D3200DD2B67 /* CoreText.framework */,
 				775F9BBA1A356D1800DD2B67 /* MediaAccessibility.framework */,
@@ -293,7 +286,6 @@
 				775F9B991A356B6000DD2B67 /* ViewController.m in Sources */,
 				775F9B961A356B6000DD2B67 /* AppDelegate.m in Sources */,
 				775F9B931A356B6000DD2B67 /* main.m in Sources */,
-				774021571A383584005B0F11 /* TempObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
