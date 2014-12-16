@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7740201E1A36BB72005B0F11 /* icon_cast_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 774020141A36BB72005B0F11 /* icon_cast_off.png */; };
+		7740201F1A36BB72005B0F11 /* icon_cast_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 774020151A36BB72005B0F11 /* icon_cast_on.png */; };
+		774020201A36BB72005B0F11 /* icon_cast_on0.png in Resources */ = {isa = PBXBuildFile; fileRef = 774020161A36BB72005B0F11 /* icon_cast_on0.png */; };
+		774020211A36BB72005B0F11 /* icon_cast_on1.png in Resources */ = {isa = PBXBuildFile; fileRef = 774020171A36BB72005B0F11 /* icon_cast_on1.png */; };
+		774020221A36BB72005B0F11 /* icon_cast_on2.png in Resources */ = {isa = PBXBuildFile; fileRef = 774020181A36BB72005B0F11 /* icon_cast_on2.png */; };
+		774020231A36BB72005B0F11 /* icon_cast_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 774020191A36BB72005B0F11 /* icon_cast_off@2x.png */; };
+		774020241A36BB72005B0F11 /* icon_cast_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7740201A1A36BB72005B0F11 /* icon_cast_on@2x.png */; };
+		774020251A36BB72005B0F11 /* icon_cast_on0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7740201B1A36BB72005B0F11 /* icon_cast_on0@2x.png */; };
+		774020261A36BB72005B0F11 /* icon_cast_on1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7740201C1A36BB72005B0F11 /* icon_cast_on1@2x.png */; };
+		774020271A36BB72005B0F11 /* icon_cast_on2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7740201D1A36BB72005B0F11 /* icon_cast_on2@2x.png */; };
+		774021571A383584005B0F11 /* TempObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 774021561A383584005B0F11 /* TempObject.m */; };
+		775F9B931A356B6000DD2B67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 775F9B921A356B6000DD2B67 /* main.m */; };
+		775F9B961A356B6000DD2B67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 775F9B951A356B6000DD2B67 /* AppDelegate.m */; };
+		775F9B991A356B6000DD2B67 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 775F9B981A356B6000DD2B67 /* ViewController.m */; };
+		775F9B9C1A356B6000DD2B67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 775F9B9A1A356B6000DD2B67 /* Main.storyboard */; };
+		775F9B9E1A356B6000DD2B67 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 775F9B9D1A356B6000DD2B67 /* Images.xcassets */; };
+		775F9BA11A356B6000DD2B67 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 775F9B9F1A356B6000DD2B67 /* LaunchScreen.xib */; };
+		775F9BAD1A356B6000DD2B67 /* TestGoogleCastTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 775F9BAC1A356B6000DD2B67 /* TestGoogleCastTests.m */; };
+		775F9BB71A356B9F00DD2B67 /* GoogleCast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 775F9BB61A356B9F00DD2B67 /* GoogleCast.framework */; };
+		775F9BB91A356D0900DD2B67 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 775F9BB81A356D0900DD2B67 /* SystemConfiguration.framework */; };
+		775F9BBB1A356D1800DD2B67 /* MediaAccessibility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 775F9BBA1A356D1800DD2B67 /* MediaAccessibility.framework */; };
+		775F9BBD1A356D3200DD2B67 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 775F9BBC1A356D3200DD2B67 /* CoreText.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		775F9BA71A356B6000DD2B67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 775F9B851A356B6000DD2B67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 775F9B8C1A356B6000DD2B67;
+			remoteInfo = TestGoogleCast;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		774020141A36BB72005B0F11 /* icon_cast_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_cast_off.png; sourceTree = "<group>"; };
+		774020151A36BB72005B0F11 /* icon_cast_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_cast_on.png; sourceTree = "<group>"; };
+		774020161A36BB72005B0F11 /* icon_cast_on0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_cast_on0.png; sourceTree = "<group>"; };
+		774020171A36BB72005B0F11 /* icon_cast_on1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_cast_on1.png; sourceTree = "<group>"; };
+		774020181A36BB72005B0F11 /* icon_cast_on2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_cast_on2.png; sourceTree = "<group>"; };
+		774020191A36BB72005B0F11 /* icon_cast_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_cast_off@2x.png"; sourceTree = "<group>"; };
+		7740201A1A36BB72005B0F11 /* icon_cast_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_cast_on@2x.png"; sourceTree = "<group>"; };
+		7740201B1A36BB72005B0F11 /* icon_cast_on0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_cast_on0@2x.png"; sourceTree = "<group>"; };
+		7740201C1A36BB72005B0F11 /* icon_cast_on1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_cast_on1@2x.png"; sourceTree = "<group>"; };
+		7740201D1A36BB72005B0F11 /* icon_cast_on2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_cast_on2@2x.png"; sourceTree = "<group>"; };
+		774021551A383584005B0F11 /* TempObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TempObject.h; sourceTree = "<group>"; };
+		774021561A383584005B0F11 /* TempObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TempObject.m; sourceTree = "<group>"; };
+		775F9B8D1A356B6000DD2B67 /* TestGoogleCast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestGoogleCast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		775F9B911A356B6000DD2B67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		775F9B921A356B6000DD2B67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		775F9B941A356B6000DD2B67 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		775F9B951A356B6000DD2B67 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		775F9B971A356B6000DD2B67 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		775F9B981A356B6000DD2B67 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		775F9B9B1A356B6000DD2B67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		775F9B9D1A356B6000DD2B67 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		775F9BA01A356B6000DD2B67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		775F9BA61A356B6000DD2B67 /* TestGoogleCastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestGoogleCastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		775F9BAB1A356B6000DD2B67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		775F9BAC1A356B6000DD2B67 /* TestGoogleCastTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestGoogleCastTests.m; sourceTree = "<group>"; };
+		775F9BB61A356B9F00DD2B67 /* GoogleCast.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleCast.framework; sourceTree = "<group>"; };
+		775F9BB81A356D0900DD2B67 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		775F9BBA1A356D1800DD2B67 /* MediaAccessibility.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaAccessibility.framework; path = System/Library/Frameworks/MediaAccessibility.framework; sourceTree = SDKROOT; };
+		775F9BBC1A356D3200DD2B67 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		775F9BBE1A35775900DD2B67 /* 10.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 10.mp4; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		775F9B8A1A356B6000DD2B67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				775F9BBD1A356D3200DD2B67 /* CoreText.framework in Frameworks */,
+				775F9BBB1A356D1800DD2B67 /* MediaAccessibility.framework in Frameworks */,
+				775F9BB91A356D0900DD2B67 /* SystemConfiguration.framework in Frameworks */,
+				775F9BB71A356B9F00DD2B67 /* GoogleCast.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		775F9BA31A356B6000DD2B67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		774020131A36BB60005B0F11 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				774020141A36BB72005B0F11 /* icon_cast_off.png */,
+				774020151A36BB72005B0F11 /* icon_cast_on.png */,
+				774020161A36BB72005B0F11 /* icon_cast_on0.png */,
+				774020171A36BB72005B0F11 /* icon_cast_on1.png */,
+				774020181A36BB72005B0F11 /* icon_cast_on2.png */,
+				774020191A36BB72005B0F11 /* icon_cast_off@2x.png */,
+				7740201A1A36BB72005B0F11 /* icon_cast_on@2x.png */,
+				7740201B1A36BB72005B0F11 /* icon_cast_on0@2x.png */,
+				7740201C1A36BB72005B0F11 /* icon_cast_on1@2x.png */,
+				7740201D1A36BB72005B0F11 /* icon_cast_on2@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		775F9B841A356B6000DD2B67 = {
+			isa = PBXGroup;
+			children = (
+				775F9B8F1A356B6000DD2B67 /* TestGoogleCast */,
+				775F9BA91A356B6000DD2B67 /* TestGoogleCastTests */,
+				775F9B8E1A356B6000DD2B67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		775F9B8E1A356B6000DD2B67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				775F9B8D1A356B6000DD2B67 /* TestGoogleCast.app */,
+				775F9BA61A356B6000DD2B67 /* TestGoogleCastTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		775F9B8F1A356B6000DD2B67 /* TestGoogleCast */ = {
+			isa = PBXGroup;
+			children = (
+				774020131A36BB60005B0F11 /* Images */,
+				775F9B941A356B6000DD2B67 /* AppDelegate.h */,
+				775F9B951A356B6000DD2B67 /* AppDelegate.m */,
+				775F9B971A356B6000DD2B67 /* ViewController.h */,
+				775F9B981A356B6000DD2B67 /* ViewController.m */,
+				774021551A383584005B0F11 /* TempObject.h */,
+				774021561A383584005B0F11 /* TempObject.m */,
+				775F9B9A1A356B6000DD2B67 /* Main.storyboard */,
+				775F9B9D1A356B6000DD2B67 /* Images.xcassets */,
+				775F9B9F1A356B6000DD2B67 /* LaunchScreen.xib */,
+				775F9B901A356B6000DD2B67 /* Supporting Files */,
+			);
+			path = TestGoogleCast;
+			sourceTree = "<group>";
+		};
+		775F9B901A356B6000DD2B67 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				775F9BBE1A35775900DD2B67 /* 10.mp4 */,
+				775F9BB61A356B9F00DD2B67 /* GoogleCast.framework */,
+				775F9BBC1A356D3200DD2B67 /* CoreText.framework */,
+				775F9BBA1A356D1800DD2B67 /* MediaAccessibility.framework */,
+				775F9BB81A356D0900DD2B67 /* SystemConfiguration.framework */,
+				775F9B911A356B6000DD2B67 /* Info.plist */,
+				775F9B921A356B6000DD2B67 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		775F9BA91A356B6000DD2B67 /* TestGoogleCastTests */ = {
+			isa = PBXGroup;
+			children = (
+				775F9BAC1A356B6000DD2B67 /* TestGoogleCastTests.m */,
+				775F9BAA1A356B6000DD2B67 /* Supporting Files */,
+			);
+			path = TestGoogleCastTests;
+			sourceTree = "<group>";
+		};
+		775F9BAA1A356B6000DD2B67 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				775F9BAB1A356B6000DD2B67 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		775F9B8C1A356B6000DD2B67 /* TestGoogleCast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 775F9BB01A356B6000DD2B67 /* Build configuration list for PBXNativeTarget "TestGoogleCast" */;
+			buildPhases = (
+				775F9B891A356B6000DD2B67 /* Sources */,
+				775F9B8A1A356B6000DD2B67 /* Frameworks */,
+				775F9B8B1A356B6000DD2B67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestGoogleCast;
+			productName = TestGoogleCast;
+			productReference = 775F9B8D1A356B6000DD2B67 /* TestGoogleCast.app */;
+			productType = "com.apple.product-type.application";
+		};
+		775F9BA51A356B6000DD2B67 /* TestGoogleCastTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 775F9BB31A356B6000DD2B67 /* Build configuration list for PBXNativeTarget "TestGoogleCastTests" */;
+			buildPhases = (
+				775F9BA21A356B6000DD2B67 /* Sources */,
+				775F9BA31A356B6000DD2B67 /* Frameworks */,
+				775F9BA41A356B6000DD2B67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				775F9BA81A356B6000DD2B67 /* PBXTargetDependency */,
+			);
+			name = TestGoogleCastTests;
+			productName = TestGoogleCastTests;
+			productReference = 775F9BA61A356B6000DD2B67 /* TestGoogleCastTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		775F9B851A356B6000DD2B67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = DavidLi;
+				TargetAttributes = {
+					775F9B8C1A356B6000DD2B67 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					775F9BA51A356B6000DD2B67 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 775F9B8C1A356B6000DD2B67;
+					};
+				};
+			};
+			buildConfigurationList = 775F9B881A356B6000DD2B67 /* Build configuration list for PBXProject "TestGoogleCast" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 775F9B841A356B6000DD2B67;
+			productRefGroup = 775F9B8E1A356B6000DD2B67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				775F9B8C1A356B6000DD2B67 /* TestGoogleCast */,
+				775F9BA51A356B6000DD2B67 /* TestGoogleCastTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		775F9B8B1A356B6000DD2B67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				775F9B9C1A356B6000DD2B67 /* Main.storyboard in Resources */,
+				774020261A36BB72005B0F11 /* icon_cast_on1@2x.png in Resources */,
+				7740201E1A36BB72005B0F11 /* icon_cast_off.png in Resources */,
+				774020201A36BB72005B0F11 /* icon_cast_on0.png in Resources */,
+				774020241A36BB72005B0F11 /* icon_cast_on@2x.png in Resources */,
+				774020211A36BB72005B0F11 /* icon_cast_on1.png in Resources */,
+				774020221A36BB72005B0F11 /* icon_cast_on2.png in Resources */,
+				774020271A36BB72005B0F11 /* icon_cast_on2@2x.png in Resources */,
+				774020231A36BB72005B0F11 /* icon_cast_off@2x.png in Resources */,
+				774020251A36BB72005B0F11 /* icon_cast_on0@2x.png in Resources */,
+				775F9BA11A356B6000DD2B67 /* LaunchScreen.xib in Resources */,
+				7740201F1A36BB72005B0F11 /* icon_cast_on.png in Resources */,
+				775F9B9E1A356B6000DD2B67 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		775F9BA41A356B6000DD2B67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		775F9B891A356B6000DD2B67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				775F9B991A356B6000DD2B67 /* ViewController.m in Sources */,
+				775F9B961A356B6000DD2B67 /* AppDelegate.m in Sources */,
+				775F9B931A356B6000DD2B67 /* main.m in Sources */,
+				774021571A383584005B0F11 /* TempObject.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		775F9BA21A356B6000DD2B67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				775F9BAD1A356B6000DD2B67 /* TestGoogleCastTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		775F9BA81A356B6000DD2B67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 775F9B8C1A356B6000DD2B67 /* TestGoogleCast */;
+			targetProxy = 775F9BA71A356B6000DD2B67 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		775F9B9A1A356B6000DD2B67 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				775F9B9B1A356B6000DD2B67 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		775F9B9F1A356B6000DD2B67 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				775F9BA01A356B6000DD2B67 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		775F9BAE1A356B6000DD2B67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		775F9BAF1A356B6000DD2B67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		775F9BB11A356B6000DD2B67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TestGoogleCast",
+				);
+				INFOPLIST_FILE = TestGoogleCast/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		775F9BB21A356B6000DD2B67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TestGoogleCast",
+				);
+				INFOPLIST_FILE = TestGoogleCast/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		775F9BB41A356B6000DD2B67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TestGoogleCastTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestGoogleCast.app/TestGoogleCast";
+			};
+			name = Debug;
+		};
+		775F9BB51A356B6000DD2B67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TestGoogleCastTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestGoogleCast.app/TestGoogleCast";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		775F9B881A356B6000DD2B67 /* Build configuration list for PBXProject "TestGoogleCast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				775F9BAE1A356B6000DD2B67 /* Debug */,
+				775F9BAF1A356B6000DD2B67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		775F9BB01A356B6000DD2B67 /* Build configuration list for PBXNativeTarget "TestGoogleCast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				775F9BB11A356B6000DD2B67 /* Debug */,
+				775F9BB21A356B6000DD2B67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		775F9BB31A356B6000DD2B67 /* Build configuration list for PBXNativeTarget "TestGoogleCastTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				775F9BB41A356B6000DD2B67 /* Debug */,
+				775F9BB51A356B6000DD2B67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 775F9B851A356B6000DD2B67 /* Project object */;
+}
